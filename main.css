@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma,Arial;
+}
+.container {
+    width: 1000px;
+    padding: 20px;
+    background-color: #eee;
+    margin: 0 auto;
+    
+}
+.container .box-comments {
+    background-color:#009688a3;
+    margin-bottom: 20px;
+    color: white;
+}
+.box-comments .body {
+    padding: 10px 30px;
+    border: 1px solid #009688;
+    border-top:none ;
+}
+.box-comments .info {
+display: flex;
+border: 1px solid #009688;
+justify-content: space-around;
+}
+.info span:not(:last-child) {
+    border-right: 1px solid #009688;
+    padding: 0px 20px;
+}
